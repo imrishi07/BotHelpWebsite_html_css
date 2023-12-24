@@ -1,0 +1,144 @@
+@media screen and (max-width: 991px) {
+  /*Navigation*/
+  .nav-button {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+  }
+  .mob-nav-icon {
+    display: block;
+  }
+
+  /*Hero*/
+
+  h1 {
+    font-size: 72px;
+    line-height: 75px;
+  }
+
+  .hero-container {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .hero-left {
+    width: 50%;
+  }
+
+  .hero-right {
+    width: 40%;
+  }
+
+  /*Feature Section*/
+
+  .bigfeature-section {
+    margin-top: 60px;
+  }
+
+  .heading-bigfeature {
+    padding: 60px;
+    margin-bottom: 60px;
+  }
+
+  .feature-container {
+    padding-inline: 30px;
+    text-align: center;
+    margin-bottom: 120px;
+  }
+
+  .right-feature-section {
+    width: 70%;
+  }
+
+  .feature-content button {
+    margin-inline: auto;
+  }
+
+  /*Ask Questions*/
+  .ask-acc-container {
+    padding-inline: 30px;
+    flex-direction: column-reverse;
+  }
+
+  /* .ask-acc-right {
+    width: 70%;
+  } */
+
+  .ask-acc-left {
+    width: 70%;
+  }
+
+  /*Pricing*/
+  .pricing-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .lg-pricing-card {
+    width: 270px;
+    height: 450px;
+  }
+
+  /*CTA*/
+  .cta-container {
+    padding: 40px 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /*Hero*/
+  h1 {
+    font-size: 56px;
+    line-height: 60px;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+
+  .hero-container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+
+    gap: 20px;
+  }
+  .hero-left {
+    width: 100%;
+  }
+
+  .hero-right {
+    width: 100%;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero-button {
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  /*Feature*/
+  .heading-bigfeature {
+    padding-inline: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /*Ask Question*/
+
+  .ask-acc-left {
+    width: 100%;
+  }
+  /*CTA*/
+
+  .cta-container {
+    padding: 40px 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+}
